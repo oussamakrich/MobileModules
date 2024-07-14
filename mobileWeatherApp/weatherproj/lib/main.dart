@@ -61,18 +61,21 @@ class _MainPageState extends State<MainPage> {
       appBar: AppBar(
           titleSpacing: 0,
           backgroundColor: Colors.blue[600],
-          leading: Icon(Icons.search, color: Colors.grey[100],),
-          title: TextField(
-              style: const TextStyle(color : Colors.white, fontWeight: FontWeight.bold, fontSize: 17,decorationThickness: 0.0),
-              decoration: InputDecoration(
-                hintText: 'Search...',
-                hintStyle: TextStyle(color: Colors.grey[100]),
-                border: InputBorder.none,
+          leading: IconButton(onPressed: () {}, icon : Icon(Icons.search, color: Colors.grey[100],)),
+          title: Padding(
+            padding: const EdgeInsets.only(right: 10),
+            child: TextField(
+                style: const TextStyle(color : Colors.white, fontWeight: FontWeight.bold, fontSize: 17,decorationThickness: 0.0),
+                decoration: InputDecoration(
+                  hintText: 'Search...',
+                  hintStyle: TextStyle(color: Colors.grey[100]),
+                  border: InputBorder.none,
+                ),
+                onChanged: (value) {setState(() {
+                  searchText = value;
+                });},
               ),
-              onChanged: (value) {setState(() {
-                searchText = value;
-              });},
-            ),
+          ),
           actions: [Padding(
             padding: const EdgeInsets.only(right: 15),
             child: Icon(CupertinoIcons.location, color: Colors.grey[100]),
