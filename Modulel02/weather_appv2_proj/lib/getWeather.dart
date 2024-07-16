@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:ffi';
-import 'package:weatherproj/main.dart';
+import 'package:weather_appv2_proj/main.dart';
 import 'package:http/http.dart' as http;
 
 Map<int, String> codes = {0 : 'Clear sky',1 : 'Mainly clear', 2 : 'partly cloudy', 3 : 'overcast',45 : 'Fog', 48 :'depositing rime fog',

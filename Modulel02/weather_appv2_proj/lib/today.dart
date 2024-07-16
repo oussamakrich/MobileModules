@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:weatherproj/getWeather.dart';
-import 'package:weatherproj/main.dart';
+import 'package:weather_appv2_proj/getWeather.dart';
+import 'package:weather_appv2_proj/main.dart';
 
 class Today extends StatefulWidget {
   Today({super.key, required this.selectedCity, required this.error});

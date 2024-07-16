@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:weatherproj/currently.dart';
-import 'package:weatherproj/today.dart';
-import 'package:weatherproj/weekly.dart';
-import 'package:weatherproj/getLoacalisation.dart';
+import 'package:weather_appv2_proj/currently.dart';
+import 'package:weather_appv2_proj/today.dart';
+import 'package:weather_appv2_proj/weekly.dart';
+import 'package:weather_appv2_proj/getLoacalisation.dart';
 
 import 'package:http/http.dart' as http;
 

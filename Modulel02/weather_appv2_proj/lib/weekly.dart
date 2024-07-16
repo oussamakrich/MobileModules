@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:weatherproj/getWeather.dart';
-import 'package:weatherproj/main.dart';
+import 'package:weather_appv2_proj/getWeather.dart';
+import 'package:weather_appv2_proj/main.dart';
 
 class Weekly extends StatefulWidget {
   
